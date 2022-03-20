@@ -10,7 +10,7 @@ public class ExtendThread implements Runnable {
         Thread t1= new Thread(ex);  
         t1.start(); 
         for(int i=1; i<=5; i++) {
-        System.out.println("Hi " +i);  
+        System.out.println("Hello India " +i);  
         }
     }  
 } 
